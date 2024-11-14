@@ -1,6 +1,6 @@
 ﻿namespace ConnectionStringTester
 {
-	partial class Form1
+	partial class ConnectionStringTester
 	{
 		/// <summary>
 		/// Required designer variable.
@@ -126,7 +126,7 @@
 			this.RedX.UseVisualStyleBackColor = false;
 			this.RedX.Visible = false;
 			// 
-			// Form1
+			// ConnectionStringTester
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -139,7 +139,7 @@
 			this.Controls.Add(this.connStrBox);
 			this.Controls.Add(this.dbTypeLabel);
 			this.Controls.Add(this.DBTypeDropdown);
-			this.Name = "Form1";
+			this.Name = "ConnectionStringTester";
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
 			this.Text = "Form1";
 			this.ResumeLayout(false);
